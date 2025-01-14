@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 300px 300px 300px 300px;
+  gap: 10px 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.box {
+  height: 300px;
+  width: 300px;
+}
+
+.box > img {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.2s;
+  object-fit: cover;
+}
+
+.box > img:hover {
+  transform: scale(1.5);
+}

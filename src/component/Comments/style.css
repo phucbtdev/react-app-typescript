@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.list-comment {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.item-comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-comment {
+  height: 50px;
+  width: 50px;
+}
+
+.left-comment img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.right-comment {
+  width: 100%;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.right-comment .name {
+  min-width: 100px;
+}
+
+.right-comment .comment {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.right-comment button {
+  height: 35px;
+  min-width: 100px;
+  padding: 5px 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

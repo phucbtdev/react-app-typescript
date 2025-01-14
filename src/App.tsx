@@ -1,25 +1,16 @@
-import './App.css';
+import Layout from './component/Layout';
+import Image from './component/Image';
+import Card from "./component/Card";
+import Navbar from "./component/Navbar";
+import Comment from "./component/Comments";
 
 function App() {
   return (
-    <div className="container">
-      <div className="header">
-      
-      </div>
-
-      <div className="main">
-        <div className='left-box'>
-
-        </div>
-        <div className='right-box'>
-
-        </div>
-      </div>
-      
-      <div className="footer">
-      
-      </div>
-    </div>
+    <Layout></Layout>
+    // <Image></Image>
+    // <Card></Card>
+    // <Navbar></Navbar>
+  //  <Comment></Comment>
   );
 }
 
